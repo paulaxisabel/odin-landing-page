@@ -1,0 +1,268 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.left-bar, .right-bar {
+  flex: 1;
+}
+
+.center-column {
+  flex: 4;
+}
+
+.hero {
+  display: flex;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.header {
+  margin-top: 24px;
+  display: flex;
+  align-items: baseline;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 24px;
+  flex: 1;
+  vertical-align: top;
+}
+
+.link-nav-container {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: end;
+}
+
+.link-nav-container a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: 300;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.link-nav-container a:hover {
+  color: white;
+  border-bottom: 2px solid;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.hero-main {
+  padding-top: 80px;
+  padding-bottom: 125px;
+  display: flex;
+}
+
+.hero-item {
+  flex: 1;
+}
+
+.hero-item h1 {
+  font-size: 48px;
+  margin: 0;
+  margin-right: 80px;
+}
+
+.hero-item p {
+  margin-top: 20px;
+  margin-right: 60px;
+  color: #E5E7EB;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.hero-item button {
+  margin-top: 18px;
+  background-color: #3882F6;
+  color: white;
+  border: 0px;
+  border-radius: 15px;
+  padding: 14px 30px 14px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+.hero-item button:hover {
+  background-color: white;
+  color:#3882F6;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.hero-image {
+  display: block;
+  margin-left: auto;
+  object-fit: cover;
+  margin-top: 10px;
+  width: 95%;
+  height: 300px;
+  border-radius: 15px;
+  text-align: right;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.information h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1F2937;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.info-box {
+  color: #1F2937;
+  text-align: center;
+  font-weight: 500;
+  width: 208px;
+}
+
+.info-image {
+  width: 200px;
+  height: 200px;
+  border: 2px #3882F6 solid;
+  border-radius: 16px;
+  background-size: cover;	
+}
+
+.image1 {
+  background-image: url("/images/cat-1.jpeg");
+}
+
+.image2 {
+  background-image: url("/images/cat-2.jpeg");
+}
+
+.image3 {
+  background-image: url("/images/cat-3.jpeg");
+}
+
+.image4 {
+  background-image: url("/images/cat-4.jpeg");
+}
+
+.quote-bar {
+  display: flex;
+  margin-top: 100px;
+  background: #E5E7EB;
+  height: 480px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  padding-left: 20%;
+  padding-right: 20%;
+  color: #1F2937;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.action-bar {
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-call {
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 12px;
+  height: 180px;
+  flex: 4;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-text {
+  padding-left: 80px;
+  color: #E5E7EB;
+  padding-right: 30px;
+}
+
+.action-text  h2 {
+  font-size: 24px;
+  color: white;
+  margin: 0;
+}
+
+.action-text  p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.action-item1 {
+  flex: 2;
+}
+
+.action-item2 {
+  flex: 1;
+  text-align: center
+}
+
+.action-item2 button {
+  background-color: #3882F6;
+  color: white;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 12px 30px 12px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 80px;
+  height: 55px;
+  width: 180px;
+}
+
+.action-item2 button:hover {
+  background-color: white;
+  color:#3882F6;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.pad-side {
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  background: #1F2937;
+  height: 80px;
+  color: #E5E7EB;
+  justify-content: center;
+  align-items: center;
+}
